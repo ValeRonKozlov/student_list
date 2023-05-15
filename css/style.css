@@ -1,0 +1,76 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  max-width: 100%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: 400;
+  background-color: antiquewhite;
+}
+
+.main {
+  margin: 0 auto;
+  padding: 100px 150px;
+}
+
+.student__add-form {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.legend-title {
+  margin-bottom: 20px;
+}
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+}
+.data-label {
+  position: relative;
+  width: 32%;
+  margin-right: 10px;
+}
+
+.label {
+  position: absolute;
+  top: 10px;
+  left: 120px;
+}
+
+.label-input {
+  width: 100%;
+}
+
+input {
+  width: 32%;
+  height: 40px;
+  padding-left: 10px;
+  background-color: rgb(240, 170, 170);
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+th {
+  cursor: pointer;
+}
+.filter {
+  width: 23%;
+}
+.hide {
+  display: none;
+}
